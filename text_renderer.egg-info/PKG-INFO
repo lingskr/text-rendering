@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: text-renderer
+Version: 0.1.0
+Home-page: https://github.com/oh-my-ocr/text_renderer
+Author: oh-my-ocr
+Requires-Python: >=3.6
+License-File: LICENSE
