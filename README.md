@@ -17,7 +17,7 @@ Generate text line images for training deep learning OCR model (e.g. [CRNN](http
 Run following command to generate images using example data:
 
 ```bash
-git clone https://github.com/oh-my-ocr/text_renderer
+git clone https://github.com/lingskr/Burmese-text-rendering.git
 cd text_renderer
 python3 setup.py develop
 pip3 install -r docker/requirements.txt
