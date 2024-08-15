@@ -84,9 +84,9 @@ workspace
 ├── bg
 │ └── background.png
 ├── corpus
-│ └── eng_text.txt
+│ └── burmse.txt
 └── font
-    └── simsun.ttf
+    └── NotoSansMyanmar-Regular.ttf
 ```
 
 ### Create config file
@@ -196,36 +196,6 @@ Setup [Commitizen](http://commitizen.github.io/cz-cli/) for commit message
   It does not necessarily need to be a generic corpus generator, but can also be a business-specific generator, 
   such as generating ID numbers
 
-
-## Run in Docker
-
-Build image
-
-```bash
-docker build -f docker/Dockerfile -t text_renderer .
-```
-
-Config file is provided by `CONFIG` environment.
-In `example.py` file, data is generated in `example_data/output` directory,
-so we map this directory to the host.
-
-
-
-## Font Viewer
-Start font viewer
-
-```bash
-streamlit run tools/font_viewer.py -- web /path/to/fonts_dir
-```
-![image](./image/font_viewer.png)
-
-## Build docs
-
-```bash
-cd docs
-make html
-open _build/html/index.html
-```
 
 
 ## Citing text_renderer
