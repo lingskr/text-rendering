@@ -209,15 +209,7 @@ Config file is provided by `CONFIG` environment.
 In `example.py` file, data is generated in `example_data/output` directory,
 so we map this directory to the host.
 
-```bash
-docker run --rm \
--v `pwd`/example_data/docker_output/:/app/example_data/output \
---env CONFIG=/app/example_data/example.py \
---env DATASET=img \
---env NUM_PROCESSES=2 \
---env LOG_PERIOD=10 \
-text_renderer
-```
+
 
 ## Font Viewer
 Start font viewer
@@ -241,9 +233,9 @@ If you use text_renderer in your research, please consider use the following Bib
 
 ```BibTeX
 @misc{text_renderer,
-  author =       {oh-my-ocr},
-  title =        {text_renderer},
-  howpublished = {\url{https://github.com/oh-my-ocr/text_renderer}},
-  year =         {2021}
+  author =       {lingskr},
+  title =        {Burmese-text-rendering},
+  howpublished = {\url{https://github.com/lingskr/Burmese-text-rendering.git}},
+  year =         {2024}
 }
 ```
