@@ -21,6 +21,9 @@ git clone https://github.com/lingskr/Burmese-text-rendering.git
 cd text_renderer
 python3 setup.py develop
 pip3 install -r docker/requirements.txt
+pip install --upgrade pip setuptools
+pip install "fonttools>=4.22.0" "pillow>=8.3.2" "sphinx>=5" "pygments>=2.13.0"
+
 python3 main.py \
     --config example_data/example.py \
     --dataset img \
