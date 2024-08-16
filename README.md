@@ -18,7 +18,7 @@ Run following command to generate images using example data:
 
 ```bash
 git clone https://github.com/lingskr/Burmese-text-rendering.git
-cd text_renderer
+cd Burmese-text-rendering
 python3 setup.py develop
 pip3 install -r docker/requirements.txt
 pip install --upgrade pip setuptools
